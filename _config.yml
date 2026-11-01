@@ -1,0 +1,33 @@
+title: After the Code
+description: Textos pessoais de Alan Souza.
+author: Alan Souza
+lang: pt-BR
+locale: pt_BR
+timezone: America/Sao_Paulo
+
+url: "https://alancsouza.github.io"
+baseurl: "/after-the-code"
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+meses:
+  - janeiro
+  - fevereiro
+  - março
+  - abril
+  - maio
+  - junho
+  - julho
+  - agosto
+  - setembro
+  - outubro
+  - novembro
+  - dezembro
+
+exclude:
+  - README.md
